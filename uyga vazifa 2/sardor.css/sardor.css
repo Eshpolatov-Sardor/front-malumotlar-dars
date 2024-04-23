@@ -1,0 +1,55 @@
+body{
+    background-color: #030303;
+}
+.row h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 200px;
+    margin-top: 300px;
+    text-shadow: 10px -25px 50PX #f4c5b4 , 10px -35px 55px rgb(238, 242, 7),10px -105px 55px rgb(242, 38, 7);
+}
+.row h4{
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-size: 70px;
+    margin-top: -150px;
+}
+.kow h2{
+    
+    text-align: center;
+    color: rgb(251, 244, 244);
+    font-size: 250px;
+    text-shadow: 10px 5px #f31f03 ,15px 10px #f38703,20px 15px #f3d703,25px 20px #63f303,30px 25px #036ff3;
+    letter-spacing: 30px;}
+.kow h3{
+        color: aliceblue;
+        font-size: 180px;
+        text-align: center;
+        margin-top: -200px;
+    }
+.kov{
+    background-color: #332e2c;
+    width: 750px;
+    height: 750px;
+    margin-top:-750px;
+}
+.pow{
+    margin-top: -180px;
+    margin-left: 425px;
+    text-align: center;
+    border-radius: 20px;
+}
+.pow{
+    background-color: rgb(245, 239, 239);
+    width: 600px;
+    height: 100px;
+    text-shadow: -15px 150px rgb(16, 16, 16);
+}
+.koc h4{
+    color: aliceblue;
+    margin-top: 250px;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 5px 5px 15px red;
+
+}

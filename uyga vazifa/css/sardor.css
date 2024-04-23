@@ -1,0 +1,67 @@
+*{
+    position: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(154, 129, 79);
+}
+.pow h1{
+ margin-left:900px;
+ margin-top: -550px;
+ width: 450px;
+}
+.pow a h2{
+    margin-left: 1050px;
+    margin-top: -25px;
+    color: rgb(251, 219, 8);
+}
+.pow a{
+    text-decoration: none;
+    outline: none;
+    transition: 500ms;
+}
+.pow a :hover{
+    color: rgb(14, 14, 14);
+}
+.pow h2{
+    margin-left:900px;
+ margin-top:50px;
+ width: 450px;
+}
+.pow p{
+    margin-left: 900px;
+    width: 450px;
+    font-weight: 100;
+   }
+.pow img{
+  width:1520px;
+  height: 750px;
+}
+.poq h3{
+   margin-top: 10px;
+}
+button{
+    margin-left: 60%;
+    margin-top: 5%;
+    width: 500px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+    outline: none;
+    transition: 500ms;
+}
+a button {
+    width: 200px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+}
+a button:hover{
+    color: white;
+    text-decoration: underline;
+    background: black;
+}

@@ -1,0 +1,259 @@
+*{
+    position: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-color: hsl(0, 47%, 97%);  
+}
+.pow h2{
+    margin-top: -600px;
+    margin-left: 250px;
+    width: 225px;
+}
+.pow h1{
+    margin-left: 250px;
+    width: 300px;
+    color: black;
+    font-size: 50px;
+}
+.pow img{
+    width: 1520px;
+    height: 750px;
+    background-repeat:no-repeat;
+}
+button{
+    margin-left: 250px;
+    margin-top: 5%;
+    width: 500px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(246, 246, 240);
+    cursor: pointer;
+    outline: none;
+    transition: 500ms;
+}
+a button {
+    width: 200px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+}
+a button:hover{
+    color: rgb(224, 233, 237);
+    text-decoration: underline;
+    background: rgb(59, 170, 244);
+}
+.poq h1{
+    margin-top: 250px;
+    font-size: 40px;
+    color: rgb(0, 13, 255);
+}
+.poq h2{
+    margin-top: 10px;
+    width: 1500px;
+    font-size: 25px;
+    color: black;
+}
+.poq a{
+    width: 200px;
+    height: 200px;
+}
+.poq img{
+    margin-left: 720px;
+    width: 800px;
+    height: 650px;
+}
+.poq p{
+    margin-left: 200px;
+    margin-top: -500px;
+    color:black;
+    font-size: 45px;
+    width: 450px;
+}
+button.hello{
+    margin-left: 250px;
+    margin-top: 5%;
+    width: 500px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(15, 200, 228);
+    cursor: pointer;
+    outline: none;
+    transition: 500ms;
+}
+a button.hello {
+    width: 200px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+}
+a button.hello:hover{
+    color: rgb(25, 25, 25);
+    text-decoration: underline;
+    background: rgb(117, 120, 121);
+}
+button.morning{
+    margin-left: 600px;
+    margin-top: 5%;
+    width: 500px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(228, 26, 15);
+    cursor: pointer;
+    outline: none;
+    transition: 500ms;
+}
+a button.morning {
+    width: 300px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+}
+a button.morning:hover{
+    color: rgb(25, 25, 25);
+    text-decoration: underline;
+    background: rgb(246, 135, 9);
+}
+button.aftunun{
+    margin-left: 750px;
+    margin-top: 5%;
+    width: 500px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(10, 177, 249);
+    cursor: pointer;
+    outline: none;
+    transition: 500ms;
+}
+a button.aftunun {
+    width: 300px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+}
+a button.aftunun:hover{
+    color: rgb(25, 25, 25);
+    text-decoration: underline;
+    background: rgb(183, 176, 167);
+}
+.contenir{
+    width:1280px ;
+    margin: 0 auto;
+}
+.conter-mein{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 45px;
+    width: 90%;
+}
+.row{
+    border-radius: 25px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    box-shadow: 7px 7px 15px rgb(0, 0, 0, 0.2);
+    color: black;   
+}
+.row h1{
+    margin-top: 30px;
+    color: aqua;
+}
+.btn{
+    width: 1280px;
+    margin: 0 auto;
+}
+.btn-mein{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 45px;
+    width: 90%;
+}
+.btn-bu{
+    border-radius: 25px;
+    width: 30%;
+    height: 425px;
+    color: black;   
+    background-color: rgba(181, 161, 161, 0.2);
+}
+.btn-bu h2{
+    margin: 40px;
+    font-size: 20px;
+    color: rgb(0, 47, 255);
+}
+.btn-bu img{
+    width: 303px;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+.btn-bu h3{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-weight: 100;
+}
+button.shok{
+    margin-left: 600px;
+    margin-top: 20px;
+    width: 500px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(7, 235, 252);
+    cursor: pointer;
+    outline: none;
+    transition: 500ms;
+}
+a button.shok {
+    width: 300px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+}
+a button.shok:hover{
+    color: rgb(25, 25, 25);
+    text-decoration: underline;
+    background: rgb(241, 238, 235);
+}
+.show img{
+    width: 1250px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.show{
+    background-color: rgb(237, 240, 219);
+}
+.shik h2{
+    margin-top: -600px;
+    width: 550px;
+    margin-left: 200px;
+    font-size: 35px;
+    color: aliceblue;
+}
+.shik h1{
+    margin-top: 50px;
+    margin-left: 200px;
+    color: aliceblue;
+}
+.shik img{
+    width: 1500px;
+    height: 750px;
+}
+.shik h3{
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 25px;
+    color: aliceblue;
+}

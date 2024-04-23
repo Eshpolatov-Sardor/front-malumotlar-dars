@@ -1,0 +1,1061 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+body{
+    overflow-x: hidden;
+}
+
+.box1 h1{
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.box1 h1:hover{
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.box1 h2{
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 14px;
+    padding-left: 180px;
+    margin-top: -17px;
+    font-family: sans-serif;
+}
+
+.box1 h2:hover{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.box1 h3{
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 15px;
+    padding-left: 310px;
+    margin-top: -18px;
+    font-family: sans-serif;
+}
+
+.box1 h3:hover{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.box1 h4{
+    color: black;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.box1 h5{
+    color: rgba(0, 0, 0, 0.788);
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.box1 h5:hover{
+    color: rgba(255, 0, 0, 0.671);
+    cursor: pointer;
+}
+
+.man-san{
+    display: flex;
+    justify-content: center;
+    padding-left: 380px;
+    justify-content: space-evenly;
+}
+
+.san{
+    color: rgba(255, 0, 0, 0.671);
+    font-family: sans-serif;
+}
+
+.san:hover{
+    color: black;
+}
+
+.val{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    background-image: url('https://olcha.uz/image/700x700/products/luXWVCZHm7mZHuUekxxBIz1I7n09urf2s3IFeBusbru1K6fa9Xv1rb40qlRt.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    border: 2px solid wheat;
+    margin-left: 100px;
+    margin-top: 40px;
+    transition: all 5s;
+}
+
+.val:hover{
+    transform: scale(1.1);
+}
+
+.vat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30rem;
+    margin-top: -23rem;
+}
+
+.ret{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.vat h1{
+    color: rgba(0, 0, 255, 0.623);
+    font-size: 12px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.vat h1:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+.vat h2{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: brown;
+    margin-top: 20px;
+}
+
+.vat h3{
+    color: rgba(0, 0, 255, 0.623);
+    font-size: 10px;
+    padding-left: 10px;
+    margin-top: -20px;
+    font-family: sans-serif;
+    transform: translate( 30px);    
+}
+
+.vat h3:hover{
+    color:  rgba(0, 0, 0, 0.562);
+    cursor: pointer;
+}
+
+.jonmi-mon{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 100px;
+    gap: 2rem;
+}
+
+.jon{
+    width: 45px;
+    height: 45px;
+    background-image: url('https://olcha.uz/image/68x68/products/lvEZtrvD9jAtc5zen8ZUbExQZk5YPLRN6HB7sm4sWUoO7ixcd17jmlMsauxP.jpg');
+    background-repeat: no-repeat;
+    background-size: 45px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.sery{
+    width: 900px;
+    height: 200px;
+    margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    margin-left: 100px;
+    border-radius: 4px;
+}
+
+.sery h1{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+
+.sery h2{
+    font-size: 13px;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+.sery h2:hover{
+    color: rgba(255, 0, 0, 0.473);
+    cursor: pointer;
+}
+
+.sery p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -16px;
+    color: rgba(0, 0, 0, 0.623);
+    font-family: sans-serif;
+}
+
+.sery h3{
+    text-align: center;
+    padding-left: 600px;
+    margin-top: -27px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: #12bf6c;
+    border: 2px solid #12bf6c;
+    color: white;
+    margin-left: 690px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.top{
+    width: 300px;
+    height: 330px;
+    border: 1px solid black;
+    margin-left: 1050px;
+    margin-top: -350px;
+}
+.text h1{
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.text h2{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.486);
+    text-align: center;
+}
+
+.text h3{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.op{
+   width: 280px;
+   height: 40px;
+   background-color: #12bf6c;
+   color: white;
+   margin-left: 10px;
+   margin-top: 50px;
+   border: none;
+   border-radius: 10px;
+}
+
+.op:hover{
+    cursor: pointer;
+}
+
+.ok{
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.ok:hover{
+    cursor: pointer;
+}
+
+.text h4{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.text h4:hover{
+    color: rgba(255, 0, 0, 0.671);
+    cursor: pointer;
+}
+
+.lopiy{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    margin-left: 1050px;
+    margin-top: 20px;
+}
+
+.lopiy h1{
+    font-size: 15px;
+    padding-left: 43px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.lopiy h2{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.loi{
+    width: 70px;
+    height: 40px;
+    color: red;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.loi:hover{
+    cursor: pointer;
+}
+
+.kub{
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.795);
+    color: white;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.kub:hover{
+    cursor: pointer;
+}
+
+.ruy h1{
+    color: rgba(0, 0, 0, 0.767);
+    font-family: sans-serif;
+    padding-left: 100px;
+}
+
+.ruy p{
+    font-size: 13px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.maha h1{
+    color: rgba(0, 0, 0, 0.658);
+    padding-left: 100px;
+    padding-top: 37px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.maha h2{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ret{
+    display: flex;
+}
+
+.rem{
+    color: rgba(0, 0, 0, 0.733);
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.maha h3{
+    color: rgba(0, 0, 0, 0.89);
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 19px;
+    font-family: sans-serif;
+}
+
+.saka{
+    padding-left: 100px;
+    padding-top: 7px;
+}
+
+.joy{
+    display: flex;
+}
+
+.but{
+    padding-left: 100px;
+    padding-top: 20px;
+    color: black;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.but:hover{
+    cursor: pointer;
+}
+
+.dast h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    line-height: 23px;
+}
+
+.sw{
+    width: 300px;
+    height: 130px;
+    border: 2px solid whitesmoke;
+    margin-left: 1100px;
+    margin-top: -100px;
+}
+
+.sw h1{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.xuy{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.822);
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+
+.xuy:hover{
+    cursor: pointer;
+}
+
+.sw h2{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 7px;
+    padding-left: 160px;
+}
+
+.kux h1{
+    padding-left: 100px;
+    padding-top: 60px;
+    font-family: sans-serif;
+}
+
+.ac{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.ar{
+    width: 190px;
+    height: 190px;
+    background-image: url('https://olcha.uz/image/220x220/products/Ipy9bFiOSa9lO3UaB5Xmn9DPiymiaNWf3CyI1vl5BpUUkBvHVHTOtzVmXE8C.jpg');
+    background-repeat: no-repeat;
+    background-size: 190px ;
+    border: 1px solid black;
+}
+
+.guli{
+    display: flex;
+    margin-left: 100px;
+    gap: 1rem;
+}
+
+.guli img{
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+}
+
+.guli img:hover{
+    cursor: pointer;
+}
+
+.guli h5{
+    transform: translate(0,1.3rem);
+}
+
+.guli h5:hover{
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+}
+
+.marjon{
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+}
+
+
+
+.zx{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 7px;
+    margin-left: 35px;
+    gap: 8.7rem;
+}
+
+.x{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.yp{
+    display: flex;
+    gap: 5.6rem;
+    margin-top: 7px;
+    margin-left: 102px;
+}
+
+.redm{
+    color: black;
+    font-size: 14px;
+    width: 150px;
+    height: 20px;
+    background-color: #ffd740;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.marfi{
+    display: flex;
+    padding-left: 100px;
+    margin-top: 10px;
+    gap: 6.5rem;
+}
+
+.butr{
+    color: black;
+}
+
+.qaz{
+    display: flex;
+    gap: 7.5rem;
+    /* margin-left: 150px; */
+    padding-left: 130px;
+    margin-top: 10px;
+}
+
+.zz{
+    width: 120px;
+    height: 25px;
+    border: 2px solid brown;
+    color: brown;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.zz:hover{
+    cursor: pointer;
+}
+
+.zop{
+    width: 100%;
+    height: 500px;
+    border: 1px solid whitesmoke;
+    margin-top: 100px;
+}
+
+.zop h1{
+    color: black;
+    font-size: 20px;
+    padding-left: 200px;
+    transform: translate(0, 50px);
+    font-family: sans-serif;
+    margin-top: -352px;
+}
+
+.zop img{
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.zop h2{
+    text-align:center;
+    margin-left: 350px;      
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 100px;
+    transform: translate(0, 60px);
+    font-size: 20px;
+}
+
+.zop h3{
+    text-align:center;
+    margin-left: 200px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.man-san img{
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+}
+
+.vfr{
+    display: flex;
+    margin-left: 13px;
+    justify-content: space-evenly;
+    margin-top: -25px;
+}
+
+
+.zop h4{
+    text-align:center;
+    margin-left: 200px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.zop h2:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.zop h3:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.zop h4:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.vfr{
+    display: flex;
+    gap: 1rem;
+    margin-left: -100px;
+}
+
+
+.iconicon__cart{
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.zello{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.alo{
+    color: black;
+    font-family: sans-serif;
+}
+
+.cop{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sal{
+    color: black;
+}
+
+.qanisan{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.qanisan img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    transform: translate(0, 20px);
+}
+
+.hp{
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding-top:20px;
+    font-family: sans-serif;
+}
+
+.hp:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+/* Katta ekranlar uchun */
+@media(max-width: 992px){
+    .box1{
+       flex-wrap: wrap;
+    }
+    .guli{
+       flex-wrap: wrap;
+    }
+    .man-san{
+       flex-wrap: wrap;
+    }
+    .val{
+       flex-wrap: wrap;
+    }
+    .vat{
+       flex-wrap: wrap;
+    }
+    .jonmi-mon{
+       flex-wrap: wrap;
+    }
+    .sery{
+       flex-wrap: wrap;
+    }
+    .top{
+       flex-wrap: wrap;
+    }
+
+    .lopiy{
+       flex-wrap: wrap;
+    }
+    .ruy{
+       flex-wrap: wrap;
+    }
+    .maha{
+       flex-wrap: wrap;
+    }
+    .fet{
+       flex-wrap: wrap;
+    }
+    .joy{
+       flex-wrap: wrap;
+    }
+    .dast{
+       flex-wrap: wrap;
+    }
+    .sw{
+       flex-wrap: wrap;
+    }
+    .kux{
+       flex-wrap: wrap;
+    }
+    .ac{
+       flex-wrap: wrap;
+    }
+    .marfi{
+       flex-wrap: wrap;
+    }
+    .zx{
+       flex-wrap: wrap;
+    }
+    .yp{
+       flex-wrap: wrap;
+    }
+    .qaz{
+       flex-wrap: wrap;
+    }
+    .vfr{
+       flex-wrap: wrap;
+    }
+    .tr{
+       flex-wrap: wrap;
+    }
+    .zop{
+       flex-wrap: wrap;
+    }
+    .container{
+       flex-wrap: wrap;
+    }
+    .katta{
+       flex-wrap: wrap;
+    }
+    .qanisan{
+       flex-wrap: wrap;
+    }
+    .cop{
+       flex-wrap: wrap;
+    }
+    .zello{
+       flex-wrap: wrap;
+    }
+}
+
+/* 768px uchun */
+
+@media(max-width: 768px){
+   .box1{
+      flex-wrap: wrap;
+   }
+   .guli{
+      flex-wrap: wrap;
+   }
+   .man-san{
+      flex-wrap: wrap;
+   }
+   .val{
+      flex-wrap: wrap;
+   }
+   .vat{
+      flex-wrap: wrap;
+   }
+   .jonmi-mon{
+      flex-wrap: wrap;
+   }
+   .sery{
+      flex-wrap: wrap;
+   }
+   .top{
+      flex-wrap: wrap;
+   }
+
+   .lopiy{
+      flex-wrap: wrap;
+   }
+   .ruy{
+      flex-wrap: wrap;
+   }
+   .maha{
+      flex-wrap: wrap;
+   }
+   .fet{
+      flex-wrap: wrap;
+   }
+   .joy{
+      flex-wrap: wrap;
+   }
+   .dast{
+      flex-wrap: wrap;
+   }
+   .sw{
+      flex-wrap: wrap;
+   }
+   .kux{
+      flex-wrap: wrap;
+   }
+   .ac{
+      flex-wrap: wrap;
+   }
+   .marfi{
+      flex-wrap: wrap;
+   }
+   .zx{
+      flex-wrap: wrap;
+   }
+   .yp{
+      flex-wrap: wrap;
+   }
+   .qaz{
+      flex-wrap: wrap;
+   }
+   .vfr{
+      flex-wrap: wrap;
+   }
+   .tr{
+      flex-wrap: wrap;
+   }
+   .zop{
+      flex-wrap: wrap;
+   }
+   .container{
+      flex-wrap: wrap;
+   }
+   .katta{
+      flex-wrap: wrap;
+   }
+   .qanisan{
+      flex-wrap: wrap;
+   }
+   .cop{
+      flex-wrap: wrap;
+   }
+   .zello{
+      flex-wrap: wrap;
+   }
+}
+
+@media(max-width: 576px){
+   .box1{
+      flex-wrap: wrap;
+   }
+   .guli{
+      flex-wrap: wrap;
+   }
+   .man-san{
+      flex-wrap: wrap;
+      margin-top: 10px;
+      margin-left: -220px;
+   }
+   .val{
+      flex-wrap: wrap;
+   }
+   .vat{
+      flex-wrap: wrap;
+      margin-top: 30px;
+      margin-left: -10px;
+      padding-left: 100px;
+   }
+   .jonmi-mon{
+      flex-wrap: wrap;
+      margin-top: 30px;
+   }
+   .sery{
+      flex-wrap: wrap;
+      margin-top: 100px;
+      width: 500px;
+   }
+   .sery h3{
+       margin-left: -680px;
+       margin-top: 20px;
+   }
+   .btn{
+       margin-left: -10px;
+       margin-left: 150px;
+   }
+   .top{
+      flex-wrap: wrap;
+      margin-top: 25px;
+      margin-left: -1px;
+      margin-left: 100px;
+   }.lopiy{
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -1px;
+    margin-left: 100px;
+ }
+ .ruy{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: -30px;
+ }
+ .maha{
+    flex-wrap: wrap;
+ }
+ .fet{
+    flex-wrap: wrap;
+ }
+ .joy{
+    flex-wrap: wrap;
+ }
+ .dast{
+    flex-wrap: wrap;
+ }
+ .sw{
+    flex-wrap: wrap;
+ }
+ .kux{
+    flex-wrap: wrap;
+ }
+ .ac{
+    flex-wrap: wrap;
+    gap: 9rem;
+    margin-left: -1px;
+ }
+ .marfi{
+    flex-wrap: wrap;
+    margin-top: -1660px;
+    gap: 18.5rem;
+    margin-left: 20px;
+ }
+ .zx{
+    flex-wrap: wrap;
+    margin-top: -1665px;
+    gap: 19.6rem;
+    margin-left: 50px;
+ }
+ .yp{
+    flex-wrap: wrap;
+    margin-top: -1650px;
+    gap: 19.5rem;
+    margin-left: 120px;
+ }
+ .qaz{
+    flex-wrap: wrap;
+    margin-top: -1650px;
+    gap: 19.2rem;
+    margin-left: 0px;
+ }
+ .vfr{
+    flex-wrap: wrap;
+    margin-left: 1990px;
+ }
+ .tr{
+    flex-wrap: wrap;
+    margin-top: -300px;
+    margin-left: -100px;
+ }
+ .zop{
+    flex-wrap: wrap;
+    margin-left: -100px;
+ }
+ .container{
+    flex-wrap: wrap;
+ }
+ .katta{
+    flex-wrap: wrap;
+ }
+ .qanisan{
+    flex-wrap: wrap;
+    margin-top: -150px;
+    margin-left: 90px;
+ }
+ .cop{
+    flex-wrap: wrap;
+    margin-left: 290px;
+    margin-top: -10px;
+    font-size: 10px;
+ }
+ .zello{
+    margin-top: -150px;
+    font-size: 14px;
+    margin-left: -30px;
+ }
+}

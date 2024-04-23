@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.row{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.pol{
+    display: block;
+}
+.lop2{
+    margin-top: 50px;
+}
+.lop3{
+    width: 700px;
+    margin-top: 50px;
+}
+.lop1{
+    width: 150px;
+    margin-top: 50px;
+}
+.lop1 img{
+    padding-top: 10px 0;
+    width: 150px;
+    height: 150px;
+}
+.lop2 img{
+    width: 500px;
+    height: 760px;
+}
+.lop3 img{
+    width: 100px;
+    height: 100px;
+}
+.box2 h4{
+    text-align: center;
+    height: 20px;
+    width: 30px;
+}
+.box3{
+    display: flex;
+}
+.box2{
+    width: 40px;
+    border: 2px solid rgb(7, 7, 7);
+}
+.box4{
+    padding: 10px 0;
+}
+.text1{
+    display: flex;
+    padding: 20px 0 0 10px;
+}
+.text h4{
+    font-size: 20px;
+    padding: 50px 0 0 30px ;
+}
+.text-ikki{
+    width: 50px;
+    background-color: rgb(255, 3, 3);
+    height: 80px;
+}
+.text-bir{
+    width: 50px;
+    background-color: rgb(4, 4, 4);
+    height: 80px;
+}
+.text-uch{
+    width: 50px;
+    background-color: rgb(255, 217, 3);
+    height: 80px;
+}
+.text-tort{
+    width: 50px;
+    background-color: rgb(0, 0, 255);
+    height: 80px;
+}
+.text-besh{
+    width: 50px;
+    background-color: rgb(255, 0, 234);
+    height: 80px;
+}
+.text-olti{
+    width: 50px;
+    background-color: rgb(0, 255, 0);
+    height: 80px;
+}
+.text-yetti{
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    height: 80px;
+}
+.text2{
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(0, 221, 255);
+}
+.text3{
+    padding: 10px 10px;
+    height: 40px;
+    width: 500px;
+    background-color: #60dff2;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text5{
+    padding: 40px 30px;
+}
+.text5 button{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 300px;
+    height: 60px;
+    color: rgb(11, 11, 11);
+}
+.text6{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}

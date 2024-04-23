@@ -1,0 +1,13 @@
+@media(max-width:1220px){
+  .asdf{
+    margin-top: 550px;
+  } 
+  .zxc{
+    transform: translate(-200px,0);
+    width: 400px;
+  }
+  .cxz{
+    margin-top: 250px;
+    margin-left: -50px;
+  }
+}

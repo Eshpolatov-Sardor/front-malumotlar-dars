@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.box3 img{
+    width: 100%;
+    height: 855px;
+}
+.box3 h1{
+    font-size: 100px;
+    width: 700px;
+    margin-top: -600px;
+    margin-left: 200px;
+    display: flex;
+}
+.box1 h1{
+    font-size: 50px;
+    width: 500px;
+    margin-top: -800px;
+    margin-left: 800px;
+    display: flex;
+}
+.img img{
+    width: 600px;
+    height: 350px;
+    margin-left: 850px;
+    margin-top: -450px;
+}
+.pol{
+    width: 150px;
+    height: 22.5px;
+    position: absolute;
+    top: 80%;
+    left: 200px;
+}
+.pol:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+    transition: .3s ease;
+}
+.imga img{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 90%;
+}
+.box1 p{
+    width: 400px;
+    position: absolute;
+    left: 800px;
+    margin-top: 20px;
+}
+.box2 p{
+    width: 400px;
+    color: rgb(247, 243, 243);
+    margin-top: -750px;
+    margin-left: 450px;
+    font-size: 20px;
+}
+@media only screen and (max-width:700px){
+    .box3 img{
+        width: 100%;
+        height: 225.5px;
+    }
+    .box3 h1{
+        font-size: 50px;
+        width: 350px;
+        margin-top: -600px;
+        margin-left: 100px;
+        display: flex;
+    }
+    .box1 h1{
+        font-size: 25px;
+        width: 250px;
+        margin-top: -800px;
+        margin-left: 400px;
+        display: flex;
+    }
+    .img img{
+        width: 300px;
+        height: 350px;
+        margin-left: 425px;
+        margin-top: -450px;
+    }
+    .pol{
+        width: 175px;
+        height: 22.5px;
+        position: absolute;
+        top: 80%;
+        left: 100px;
+    }
+    .pol:hover{
+        background-color: black;
+        color: aliceblue;
+        border-radius: 50px;
+        transition: .3s ease;
+    }
+    .imga img{
+        width: 250px;
+        height: 600px;
+        position: absolute;
+        top: 90%;
+    }
+    .box1 p{
+        width: 200px;
+        position: absolute;
+        left: 400px;
+        margin-top: 20px;
+    }
+    .box2 p{
+        width: 200px;
+        color: rgb(247, 243, 243);
+        margin-top: -750px;
+        margin-left: 225px;
+        font-size: 10px;
+    }
+}

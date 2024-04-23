@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pow img{
+    width: 100%;
+    height: 750px;
+    border-bottom-right-radius: 80px;
+}
+.pow>h1{
+    margin-left: 200px;
+   margin-top: -550px;
+   color: aliceblue;
+   font-size: 75px;
+}
+.pow h3{
+    margin-left: 200px;
+   width: 600px;
+   color: aliceblue;
+    
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: rgb(12, 12, 12);
+}
+.btn:hover{
+    color: rgb(250, 255, 240);
+    background-color: rgb(42, 61, 165);
+}
+.pow h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+.pow p{
+    width: 700px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+.btnn{
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-left: 45%;
+    color: rgb(12, 12, 12);
+}
+.btnn:hover{
+    color: rgb(250, 255, 240);
+    background-color: rgb(42, 61, 165);
+}
+.row{
+    width: 1480px;
+    margin: 0 auto;
+}
+.pol{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 105px 85px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 50px;
+    margin-left: 100px;
+}
+.kol{
+    width: 25%;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(248, 246, 243);
+    box-shadow: 10px 15px 30px rgb(215, 210, 210),-10px -15px 30px rgb(215, 210, 210);
+}
+.shol img{
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.sholl img{
+    width: 400px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: -450px;
+    position: relative;
+    z-index: -10;
+    border-radius: 5px;
+}
+.ol{
+    width: 919px;
+    height: 400px;
+    background-color: rgb(51, 132, 246);
+    margin-top: -500px;
+    margin-left: 600px;
+    position: relative;
+    z-index: -10;
+}
+.ol h1{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: aliceblue;
+}
+.ol p{
+    width: 600px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.btnnn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(51, 132, 246);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 25%; 
+    z-index: 10 !important;
+    color: rgb(249, 243, 243);
+}
+.btnnn:hover{
+    color: rgb(51, 132, 246);
+    background-color: rgb(249, 243, 243);
+}
+.bibi-alarm{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #d1d4d6;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.kol h2{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.kol h4{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.lop{
+    width: 1180px;
+    margin: 0 auto;
+}
+.lop h1{
+    width: 450px;
+    margin-top: 300px;
+}
+.lop p{
+    width: 550px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.lop>img{
+    width: 550px;
+    margin-top: -900px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+.bibi-box-fill{
+    margin-top: 50px;
+}
+.lop h2{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.li img{
+    width: 550px;
+    border-radius: 25px;
+    margin-top: 100px;
+}

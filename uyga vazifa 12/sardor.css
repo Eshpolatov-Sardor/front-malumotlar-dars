@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pow{
+    width: 80%;
+    margin: 0 auto;
+}
+.kok{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+    animation: solideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+li{
+    list-style-type: none;
+}
+.pow h1{
+    animation: solideRight 1s ease forwards;
+    animation-delay: 1s;
+    text-align: center;
+    background-color: #9bcee4;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    color: aliceblue;
+    margin-top: 100px;
+}
+@keyframes solideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.pow h3{
+    width: 330px;
+    margin-left: 150px;
+    margin-top: -90px;
+    line-height: 25px;
+}
+.pow p{
+    width: 530px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.pow h2{
+    width: 530px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.pow img{
+    width: 600px;
+    height:650px;
+    border-radius: 10px;
+    margin-left: 580px;
+    margin-top: -400px;
+    
+}
+.pow h4{
+    font-size: 90px;
+    animation: solideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+.pow h5{
+    width: 750px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 50px;
+    line-height: 30px;
+}
+.box{
+    width: 250px;
+    height: 80px;
+    background-color: rgb(111, 136, 194);
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    margin-top: 50px;
+    color: #fff;
+}
+.box:hover{
+    background-color: black;
+    color:#fff
+}
+.row input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+}
+.row label{
+    font-size: 20px;
+    
+}
+.wor input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: #f2f2f2;
+    margin-top: 9px;
+}
+.wor label{
+    font-size: 20px;
+}
+.wor{
+    margin-top: -79px;
+    margin-left: 320px;
+}
+.lop input{
+    width: 620px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+}
+.lop label{
+    font-size: 20px;
+}
+.lop{
+    margin-top: 9px;
+}
+.pol input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: #f2f2f2;
+    margin-top: 9px;
+}
+.pol label{
+    font-size: 20px;
+    
+}
+.pol textarea{
+    border-radius: 27px;
+    font-size: 20px;
+    border: none;
+    padding: 0 20px;
+    background-color: #f2f2f2;
+}
+.pol {
+    margin-top: 9px;
+}
+.pot{
+    margin-top: 40px;
+}
+.top{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+}
+.top{
+    margin-top: 20px;
+    color: #f2f2f2;
+}
+.qop h1{
+    margin-left: 30%;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.qop p{
+    text-align: right;
+    width: 50%;
+    margin-left: 2%;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.qer h3{
+    margin-left: 65%;
+    font-size: 25px;
+    width: 40%;
+    margin-top: -17%;
+    line-height: 40px;
+}
+.qer p{
+    margin-left: 65%;
+    margin-top: 10px;
+    color: aqua;
+    font-size: 40px;
+}
+.qer h2{
+    margin-left: 65%;
+    font-size: 40px;
+}
+.rot img{
+    width: 100%;
+    height: 70vh;
+    margin-top: -1%;
+    z-index: 100px;
+}
+.tor{
+    background-color: #4c4ff9;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+svg {
+    padding-top: 40px;
+    margin-left: 22px;
+    
+}
+.rot img{
+    margin-top: -120px;
+}
+@media (max-width:800px){
+    .pow img{
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .qop p{
+        width: 100%;
+    }
+    .qer{
+        margin-top: 250px;
+        margin-left: -250px;
+        width: 100%;
+    }
+    .rot img{
+        width: 100%;
+    }
+    .pow h5{
+        width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+.rov img{
+    width: 1670px;
+    height: 500px;
+}
+.rov h1{
+    text-align: center;
+    font-size: 80px;
+}
+.rov p{
+    text-align: center;
+    width: 750px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.pow{
+    width:1400px ;
+    margin: 0 auto;
+}
+.kok{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 85px;
+    width: 90%;
+}
+.shok img{
+    margin:0 auto;
+    width: 30%;
+    width: 400px;
+    height: 400px;
+}
+.row img{
+    width: 1670px;
+    height: 750px;
+}
+.pov h1{
+    text-align: center;
+    font-size: 50px;
+}
+.pov p{
+    width: 600px;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 550px;
+    font-family: 100;
+}
+.kol{
+    width: 1680px;
+    background-color: rgb(20, 214, 224);
+    height: 450px;
+}
+.kol h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+    color: aliceblue;
+}
+.kol p{
+    width: 950px;
+    margin-left: 400px;
+    font-size: 25px;
+    text-align: center;
+}
+.hello{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 1250px;
+    height: 600px;
+    background-color: blue;
+}
+.hello img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.hello p{
+    width: 400px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+

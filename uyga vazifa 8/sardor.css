@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/2137743/images/pexels-photo-325185.jpeg);
+}
+.row{
+    margin-top: 10px;
+    margin-left: 45%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: radial-gradient(yellow 60%,red 40%);
+    transition: 5s;
+    box-shadow: 10px 10px 20px solid yellow;
+}
+.row:hover{
+    margin-top: 550px;
+    margin-left: 85%;
+}
+/* .row:hover{
+    margin-top: 550px;
+    margin-left: 85%;
+} */

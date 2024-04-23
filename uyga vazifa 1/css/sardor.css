@@ -1,0 +1,80 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.row h1{
+    margin-top: 100px;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.row p{
+    padding-top: 25px;
+    width: 650px;
+}
+.row{
+    background-color: #f2f2f2;
+    height: 600px;
+    width: 1500px;
+}
+.pow{
+    background-color: white;
+    margin-top: -80px;
+    margin-left: 100px;
+    width: 250px;
+    height: 350px;
+    border: 3px solid #f97c37;
+}
+.pow h3{
+    text-align: center;
+    padding-top: 40px;
+}
+.pow h5{
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+.roc{
+    background-color: white;
+    margin-top: -440px;
+    margin-left: 450px;
+    width: 250px;
+    height: 350px;
+    border: 3px solid #f97c37;
+}
+.kol{
+    background-color: white;
+    margin-top: -269px;
+    margin-left: 800px;
+    width: 250px;
+    height: 350px;
+    border: 3px solid #f97c37;
+}
+.koj{
+    background-color: white;
+    margin-top: -440px;
+    margin-left: 1150px;
+    width: 250px;
+    height: 350px;
+    border: 3px solid #f97c37;
+}
+.pow a h2{
+    margin-left: 100px;
+    margin-top: 25px;
+    color: rgb(4, 4, 4);
+}
+.pow a{
+    outline: none;
+    transition: 500ms;
+    color: #f97c37;
+}
+.pow a :hover{
+    color: #f97c37;
+}
+.shok{
+    background-color: #f97c37;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: -35px;
+}
